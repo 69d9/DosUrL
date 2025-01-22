@@ -8,8 +8,7 @@
 - Provides a lightweight solution for security assessments and network stress testing.
 
 ## Options
-- **-p PORT, --port PORT**: Define the target port, default is 8080
-- **-t THREADS, --threads THREADS**: Set the number of threads to use, default is 150 
+- **-p PORT, --port PORT**: Define the target port, default is 8080 
 - **-u, --url**: Specify the target URL or IP address 
 - **-h, --help**: Show the help menu
 
