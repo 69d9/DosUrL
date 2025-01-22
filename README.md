@@ -10,6 +10,7 @@
 ## Installation
 
 ### For Termux (Android)
+```bash
 pkg install wget -y
 wget https://github.com/69d9/DosUrL/releases/download/v1.0/dosurl_1.0_all_termux.deb
 dpkg -i dosurl_1.0_all_termux.deb
