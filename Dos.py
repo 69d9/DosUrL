@@ -17,7 +17,7 @@ console = Console()
 
 
 def get_Typer():
-    parser = argparse.ArgumentParser(description="Klar DDos", add_help=False)
+    parser = argparse.ArgumentParser(description="DDos", add_help=False)
     parser.add_argument("host", nargs="?", default=None, help="Server IP")
     parser.add_argument(
         "-p", "--port", type=int, dest="port", help="-p 80 default 80", default=80
@@ -52,7 +52,7 @@ def bot_hammering(url):
                 )
             )
             console.print(
-                f"DrDos Bot is Attacking at {time.ctime(time.time())}", style="green"
+                f"DosUrl Bot is Attacking at {time.ctime(time.time())}", style="green"
             )
             time.sleep(0.1)
     except:
@@ -113,10 +113,10 @@ def dos2():
 # Script Run
 def run():
     console.print("\n-----------------\n", style="bold")
-    console.print("DrDos v1.0", style="bold")
-    console.print("By The [link https://github.com/DrDataYE]@DrDataYE", style="bold")
-    console.print("Telegram [link https://t.me/LinuxArabe]Kali Linux", style="bold")
-    console.print("By Yemen", style="bold")
+    console.print("DosUrl v1.0", style="bold")
+    console.print("By The [link https://t.me/WW6WW6WW6", style="bold")
+    console.print("Telegram [link https://t.me/HereMalaria", style="bold")
+    console.print("By GhosT LulzSec", style="bold")
     console.print("\n-----------------\n", style="bold")
     console.print(
         f"START_TIME: {datetime.now().strftime('%a %b %d %H:%M:%S %Y')}", style="bold"
@@ -172,10 +172,10 @@ def run():
 # تحديد المسار الأساسي بناءً على النظام
 if "PREFIX" in os.environ:
     # مسار لـ Termux
-    base_path = os.path.join(os.environ["PREFIX"], "usr/share/drdos")
+    base_path = os.path.join(os.environ["PREFIX"], "usr/share/dosurl")
 else:
     # مسار لـ Linux
-    base_path = "/usr/share/drdos"
+    base_path = "/usr/share/dosurl"
 
 
 def headers():
