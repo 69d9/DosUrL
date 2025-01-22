@@ -7,6 +7,10 @@
 - Allows you to specify the target server IP, port, and threads.
 - Provides a lightweight solution for security assessments and network stress testing.
 
+## Usage
+dosurl -p PORT -t THREADS [TARGET]
+
+
 ## For Termux (Android)
 ```bash
 pkg install wget -y
