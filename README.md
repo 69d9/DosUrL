@@ -7,6 +7,10 @@
 - Allows you to specify the target server IP, port, and threads.
 - Provides a lightweight solution for security assessments and network stress testing.
 
+## Example
+
+dosurl -p 80 -t 125 example.com
+
 ## Installation
 
 ### For Linux
